@@ -1,11 +1,10 @@
 import pandas
 import numpy
 import seaborn
-import matplotlib.pyplot
+import matplotlib.pyplot as plt
 import scipy.cluster.hierarchy
 from scipy.cluster.hierarchy import dendrogram, linkage
 from sklearn.cluster import KMeans
-
 
 
 file_name = 'data.xlsx'
